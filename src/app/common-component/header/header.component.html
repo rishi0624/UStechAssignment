@@ -1,0 +1,22 @@
+<header class="header">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="left-header">
+                <div class="logo-area">
+                    <h1><span>US</span>TECH</h1>
+                    <p>SOLUATION</p>
+                </div>
+            </div>
+            <div class="right-header">
+                <div class="nav-area">
+                    <ul>
+                        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+                            <a [routerLink]="'material-table'">Material Table</a>
+                        </li>
+                        <li routerLinkActive="active"><a [routerLink]="'virtual-scroll-table'">Virtual Scroll Table</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

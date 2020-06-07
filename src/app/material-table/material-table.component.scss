@@ -1,0 +1,158 @@
+.screen-title{
+    font-size: 21px;
+    font-weight: 500;
+    padding: 15px;
+    background: #f6f7f8;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #d5d9dc;
+}
+.material-table-container {
+    height: 555px;
+    overflow: auto;
+    box-shadow: none;
+  }
+table {
+    width: 100%;
+}
+.hide{
+    display:none;
+}
+.mat-cell{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+th.mat-header-cell{
+    font-size: 14px;
+    font-weight: 500;
+    background: #f6f7f8;
+    color: #000;
+}
+.mat-column-name{
+  word-wrap: break-word !important;
+  white-space: unset !important; 
+  min-width: 150px !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+.mat-column-phone{
+  word-wrap: break-word !important;
+  white-space: unset !important; 
+  min-width: 150px !important;
+}
+.mat-column-email{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 320px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.mat-column-company{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 200px !important;
+}
+.mat-column-date_entry{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 200px !important;
+}
+.mat-column-org_num{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 120px !important;
+}
+.mat-column-address_1{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 200px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.mat-column-city{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 120px !important;
+}
+.mat-column-zip{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 90px !important;
+}
+.mat-column-geo{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 170px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.mat-column-pan {
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 160px !important;
+}
+.mat-column-pin{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 70px !important;
+}
+.mat-column-status{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 80px !important;
+}
+.mat-column-fee{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 80px !important;
+}
+.mat-column-guid{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 300px !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.mat-column-date_exit{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 195px !important;
+}
+.mat-column-date_first{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 195px !important;
+}
+.mat-column-date_recent{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 195px !important;
+}
+.mat-column-url{
+    word-wrap: break-word !important;
+    white-space: unset !important; 
+    min-width: 160px !important;
+}
+.mat-row:nth-child(even){
+    background-color:#eff3f6;
+}
+
+.mat-row:nth-child(odd){
+    background-color:#f8f9fa;
+}
+.mat-table {
+    border-collapse: separate;
+    border-spacing: 0 0px;
+}
+// th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+//     padding: 0;
+//     border-bottom-width: 0px;
+//     border-bottom-style: solid;
+// }
+.mat-table {
+    background: transparent;
+}

@@ -1,0 +1,104 @@
+.screen-title{
+    font-size: 21px;
+    font-weight: 500;
+    padding: 15px;
+    background: #f6f7f8;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid #d5d9dc;
+}
+.virtual-scroll-table {
+    height: calc(100vh - 155px);
+    width: 100%; 
+  }
+  
+.scroll-item { 
+    .item-row{
+        display: flex;
+        margin-bottom: 6px;
+        box-shadow: 0 0px 6px rgba(0, 0, 0, 0.2), 0 0px 0px rgba(0, 0, 0, 0.2);
+        .item-coloum{ 
+            padding: 10px;
+            .item-value{
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .item-label{
+                display: block;
+                font-size: 12px;
+                color: #ababab;
+            }
+        }
+    }
+}
+.scroll-item:nth-child(odd){
+    background-color:#f8f9fa;
+}
+.scroll-item:nth-child(even){
+    background-color:#eff3f6;
+}
+.id-col{
+    width: 30px !important;
+}
+.name-col{
+    width: 150px !important;
+    word-wrap: break-word;
+}
+.phone-col{
+    width: 150px !important;
+}
+.email-col{
+    width: 320px !important;
+}
+.company-col{
+    width: 200px !important;
+}
+.entry-date-col{
+    width: 200px !important;
+}
+.org-col{
+    width: 120px !important;
+}
+.address-col{
+    width: 250px !important;
+}
+.city-col{
+    width: 120px !important;
+}
+.zip-col{
+    width: 90px !important;
+}
+.geo-col{
+    width: 170px !important;
+}
+.pan-col{
+    width: 160px !important;
+}
+.pin-col{
+    width: 70px !important;
+}
+.status-col{
+    width: 100px !important;
+}
+.fee-col{
+    width: 100px !important;
+}
+.guid-col{
+    width: 320px !important;
+}
+.exit-date-col{
+    width: 200px !important;
+}
+.first-date-col{
+    width: 200px !important;
+}
+.recent-date-col{
+    width: 200px !important;
+}
+.url-col{
+    
+}
+.button-col{
+    
+}
+ 

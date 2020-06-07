@@ -1,0 +1,14 @@
+.content-section {   
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    .content-wrapper{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background: #f6f7f8;
+        height:calc(100vh - 100px);
+        border-radius: 4px 4px 0 0;
+        position: relative;
+    }
+}

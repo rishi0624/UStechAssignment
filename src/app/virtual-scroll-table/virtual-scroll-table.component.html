@@ -1,0 +1,93 @@
+<div class="screen-title">Scrollable Table</div>
+<!-- <div class="table-container"> -->
+    <cdk-virtual-scroll-viewport itemSize="20" minBufferPx="200" maxBufferPx="400" class="virtual-scroll-table">
+        <div *cdkVirtualFor="let item of listData" class="scroll-item">
+            <div class="item-row"> 
+                <div class="item-coloum id-col">
+                    <div class="item-value">{{item.id}}</div>
+                    <div class="item-label">Id</div>
+                </div>
+                <div class="item-coloum name-col">
+                    <div class="item-value">{{item.name}}</div>
+                    <div class="item-label">Name</div>
+                </div>
+                <div class="item-coloum phone-col">
+                    <div class="item-value">{{item.phone}}</div>
+                    <div class="item-label">Phone Number</div>
+                </div>
+                <div class="item-coloum email-col">
+                    <div class="item-value">{{item.email}}</div>
+                    <div class="item-label">Email Address</div>
+                </div>
+                <div class="item-coloum company-col">
+                    <div class="item-value">{{item.company}}</div>
+                    <div class="item-label">Company Name</div>
+                </div>
+                <div class="item-coloum entry-date-col">
+                    <div class="item-value">{{item.date_entry | date:'medium'}}</div>
+                    <div class="item-label">Entry Date</div>
+                </div>
+                <div class="item-coloum org-col">
+                    <div class="item-value">{{item.org_num}}</div>
+                    <div class="item-label">Org. Number</div>
+                </div>
+                <div class="item-coloum address-col">
+                    <div class="item-value">{{item.address_1}}</div>
+                    <div class="item-label">Address</div>
+                </div>
+                <div class="item-coloum city-col">
+                    <div class="item-value">{{item.city}}</div>
+                    <div class="item-label">City</div>
+                </div>
+                <div class="item-coloum zip-col">
+                    <div class="item-value">{{item.zip}}</div>
+                    <div class="item-label">zip Code</div>
+                </div>
+                <div class="item-coloum geo-col">
+                    <div class="item-value">{{item.geo}}</div>
+                    <div class="item-label">Geo</div>
+                </div>
+                <div class="item-coloum pan-col">
+                    <div class="item-value">{{item.pan}}</div>
+                    <div class="item-label">Pan Address</div>
+                </div>
+                <div class="item-coloum pin-col">
+                    <div class="item-value">{{item.pin}}</div>
+                    <div class="item-label">Pin</div>
+                </div>
+                <div class="item-coloum status-col">
+                    <div class="item-value">{{item.status}}</div>
+                    <div class="item-label">Status</div>
+                </div>
+                <div class="item-coloum fee-col">
+                    <div class="item-value">{{item.fee}}</div>
+                    <div class="item-label">Fee</div>
+                </div>
+                <div class="item-coloum guid-col">
+                    <div class="item-value">{{item.guid}}</div>
+                    <div class="item-label">Guid</div>
+                </div>
+                <div class="item-coloum exit-date-col">
+                    <div class="item-value">{{item.date_exit | date:'medium'}}</div>
+                    <div class="item-label">Exit Date</div>
+                </div> 
+                <div class="item-coloum first-date-col">
+                    <div class="item-value">{{item.date_first | date:'medium'}}</div>
+                    <div class="item-label">First Date</div>
+                </div>
+                <div class="item-coloum recent-date-col">
+                    <div class="item-value">{{item.date_recent | date:'medium'}}</div>
+                    <div class="item-label">Recent Date</div>
+                </div>
+                <div class="item-coloum url-col">
+                    <div class="item-value"><a href="{{item.url}}"> {{item.url}}</a></div>
+                    <div class="item-label">URL</div>
+                </div>
+                <div class="item-coloum button-col">
+                    <div class="item-value"><button mat-flat-button color="primary" (click)="onsubmit(item.id, item.status)">Submit</button></div> 
+                </div>
+
+            </div>
+        </div>
+  </cdk-virtual-scroll-viewport>
+<!-- </div> -->
